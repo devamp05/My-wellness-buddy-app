@@ -1,0 +1,252 @@
+[{
+    "recipeName": "Grilled Chicken and Quinoa Bowl",
+    "ingredients": [
+      "2 boneless, skinless chicken breasts",
+      "1 cup quinoa",
+      "2 cups water",
+      "1 cup steamed broccoli",
+      "1 tablespoon olive oil",
+      "Salt and pepper to taste"
+    ],
+    "instructions": [
+      "Season chicken breasts with salt and pepper.",
+      "Grill the chicken on medium heat for 6-8 minutes per side, or until fully cooked.",
+      "In a separate pot, cook quinoa in 2 cups of water until the water is absorbed.",
+      "Serve grilled chicken over cooked quinoa with steamed broccoli.",
+      "Drizzle with olive oil."
+    ],
+    "nutritionalInformation": {
+      "carbohydrates": "35g",
+      "protein": "30g",
+      "fats": "10g"
+    }
+},
+  {
+    "recipeName": "Baked Salmon with Lemon and Asparagus",
+    "ingredients": [
+      "2 salmon fillets",
+      "1 bunch of asparagus",
+      "1 lemon",
+      "2 tablespoons olive oil",
+      "Salt and pepper to taste"
+    ],
+    "instructions": [
+      "Preheat the oven to 375°F (190°C).",
+      "Place salmon fillets on a baking sheet and drizzle with olive oil.",
+      "Season with salt, pepper, and lemon juice.",
+      "Arrange asparagus around the salmon.",
+      "Bake for 15-20 minutes or until salmon flakes easily."
+    ],
+    "nutritionalInformation": {
+      "carbohydrates": "40g",
+      "protein": "25g",
+      "fats": "15g"
+    }
+  },
+  {
+    "recipeName": "Vegetarian Chickpea Stir-Fry",
+    "ingredients": [
+      "1 can of chickpeas, drained and rinsed",
+      "1 cup mixed bell peppers, sliced",
+      "1 cup broccoli florets",
+      "2 cloves garlic, minced",
+      "2 tablespoons soy sauce",
+      "1 tablespoon sesame oil",
+      "1 teaspoon ginger, grated"
+    ],
+    "instructions": [
+      "Heat sesame oil in a pan over medium heat.",
+      "Add garlic and ginger, stir for 1 minute.",
+      "Add chickpeas, bell peppers, and broccoli. Stir-fry for 5-7 minutes.",
+      "Add soy sauce and stir until well combined.",
+      "Serve hot."
+    ],
+    "nutritionalInformation": {
+      "carbohydrates": "30g",
+      "protein": "12g",
+      "fats": "6g"
+    }
+  },
+  
+  
+  {
+    "recipeName": "Quinoa and Black Bean Salad",
+    "ingredients": [
+      "1 cup quinoa",
+      "2 cups water",
+      "1 can black beans, drained and rinsed",
+      "1 cup corn kernels",
+      "1 red bell pepper, diced",
+      "1/4 cup cilantro, chopped",
+      "2 tablespoons lime juice"
+    ],
+    "instructions": [
+      "Rinse quinoa and cook it in 2 cups of water until the water is absorbed.",
+      "In a large bowl, combine cooked quinoa, black beans, corn, red bell pepper, and cilantro.",
+      "Drizzle with lime juice and toss to mix well.",
+      "Chill in the fridge for at least 30 minutes before serving."
+    ],
+    "nutritionalInformation": {
+      "carbohydrates": "45g",
+      "protein": "10g",
+      "fats": "2g"
+    }
+  },
+  
+  
+  {
+    "recipeName": "Grilled Vegetable and Chickpea Wraps",
+    "ingredients": [
+      "1 zucchini, sliced",
+      "1 red onion, sliced",
+      "1 red bell pepper, sliced",
+      "1 can chickpeas, drained and rinsed",
+      "4 whole wheat tortillas",
+      "2 tablespoons olive oil",
+      "1 teaspoon cumin"
+    ],
+    "instructions": [
+      "Toss zucchini, red onion, and red bell pepper with olive oil and cumin.",
+      "Grill vegetables until tender and slightly charred.",
+      "Warm tortillas, then fill them with grilled vegetables and chickpeas.",
+      "Roll up the wraps and serve."
+    ],
+    "nutritionalInformation": {
+      "carbohydrates": "50g",
+      "protein": "15g",
+      "fats": "10g"
+    }
+  },
+  
+  
+  {
+    "recipeName": "Salmon and Asparagus Foil Packets",
+    "ingredients": [
+      "2 salmon fillets",
+      "1 bunch asparagus spears",
+      "2 cloves garlic, minced",
+      "1 lemon, sliced",
+      "2 tablespoons olive oil",
+      "Salt and pepper to taste"
+    ],
+    "instructions": [
+      "Preheat the oven to 375°F (190°C).",
+      "Place each salmon fillet on a piece of aluminum foil.",
+      "Arrange asparagus around the salmon. Sprinkle with garlic, drizzle with olive oil, and season with salt and pepper.",
+      "Top with lemon slices and seal the foil packets.",
+      "Bake for 20-25 minutes. Serve hot."
+    ],
+    "nutritionalInformation": {
+      "carbohydrates": "10g",
+      "protein": "35g",
+      "fats": "15g"
+    }
+  },
+
+
+  {
+    "recipeName": "Vegan Lentil and Spinach Curry",
+    "ingredients": [
+      "1 cup red lentils",
+      "1 onion, chopped",
+      "2 cloves garlic, minced",
+      "1 tablespoon curry powder",
+      "1 can coconut milk",
+      "4 cups fresh spinach",
+      "2 tablespoons vegetable oil"
+    ],
+    "instructions": [
+      "Heat vegetable oil in a pan and sauté the onion and garlic until translucent.",
+      "Add curry powder and cook for 1-2 minutes.",
+      "Stir in red lentils and coconut milk. Simmer for 20-25 minutes until lentils are tender.",
+      "Add fresh spinach and cook until wilted. Serve over rice."
+    ],
+    "nutritionalInformation": {
+      "carbohydrates": "35g",
+      "protein": "15g",
+      "fats": "12g"
+    }
+  },
+
+
+  {
+    "recipeName": "Chickpea and Vegetable Curry",
+    "ingredients": [
+      "1 can chickpeas, drained and rinsed",
+      "2 cups mixed vegetables (e.g., cauliflower, carrots, peas)",
+      "1 onion, chopped",
+      "2 cloves garlic, minced",
+      "1 can diced tomatoes",
+      "2 tablespoons curry powder",
+      "1 cup coconut milk",
+      "2 tablespoons vegetable oil",
+      "Salt and pepper to taste"
+    ],
+    "instructions": [
+      "In a large pot, heat vegetable oil over medium heat. Add chopped onion and garlic. Sauté until onions are translucent.",
+      "Stir in curry powder and cook for 1-2 minutes until fragrant.",
+      "Add mixed vegetables, diced tomatoes, and coconut milk. Simmer until the vegetables are tender.",
+      "Stir in chickpeas and cook for an additional 5 minutes. Season with salt and pepper.",
+      "Serve over cooked rice or with naan bread."
+    ],
+    "nutritionalInformation": {
+      "carbohydrates": "40g",
+      "protein": "12g",
+      "fats": "10g"
+    }
+  },
+  
+  
+  {
+    "recipeName": "Spinach and Feta Stuffed Chicken Breast",
+    "ingredients": [
+      "4 boneless, skinless chicken breasts",
+      "2 cups fresh spinach",
+      "1/2 cup feta cheese, crumbled",
+      "2 cloves garlic, minced",
+      "1 tablespoon olive oil",
+      "Salt and pepper to taste"
+    ],
+    "instructions": [
+      "Preheat the oven to 375°F (190°C).",
+      "In a skillet, heat olive oil over medium heat. Add minced garlic and sauté for a minute.",
+      "Add fresh spinach and cook until wilted. Remove from heat and stir in feta cheese, salt, and pepper.",
+      "Cut a pocket into each chicken breast and stuff with the spinach and feta mixture.",
+      "Bake for 25-30 minutes or until chicken is cooked through."
+    ],
+    "nutritionalInformation": {
+      "carbohydrates": "2g",
+      "protein": "25g",
+      "fats": "12g"
+    }
+  },
+
+
+  {
+    "recipeName": "Baked Sweet Potato with Avocado Salsa",
+    "ingredients": [
+      "2 sweet potatoes",
+      "2 avocados, diced",
+      "1/2 red onion, finely chopped",
+      "1/4 cup fresh cilantro, chopped",
+      "1 lime, juiced",
+      "1 teaspoon cumin",
+      "Salt and pepper to taste"
+    ],
+    "instructions": [
+      "Preheat the oven to 400°F (200°C).",
+      "Wash and pierce sweet potatoes with a fork. Bake for about 45-50 minutes or until tender.",
+      "In a bowl, combine diced avocados, red onion, cilantro, lime juice, cumin, salt, and pepper to make the salsa.",
+      "Cut open baked sweet potatoes and top with the avocado salsa."
+    ],
+    "nutritionalInformation": {
+      "carbohydrates": "35g",
+      "protein": "4g",
+      "fats": "14g"
+    }
+  }
+  
+  
+  
+  
+]

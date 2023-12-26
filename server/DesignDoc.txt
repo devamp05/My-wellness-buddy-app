@@ -1,0 +1,112 @@
+This document desribes what each function and route in our server does, it's parameters and return value.
+
+Mongodb functions:
+
+1. insertDocument(documentToInsert)
+   -> inserts a user in the test_user collection in the test database.
+   -> documentToInsert: the user object to insert.
+   -> returns: the document id of the inserted user.
+
+
+2. findDocument(userId)
+    -> finds and returns a user from the test database, test_devam collection.
+    -> userId: the object Id of the user to search for
+    -> returns: a User object of our user in the database if there is a user with given userId else returns -1.
+
+3. updateDocument(userId, user)
+    -> finds a user in the test database, test_devam collection and updates it.
+    -> userId: the object Id of the user to, user: the new user object to update the old one with.
+    -> returns: null.
+
+4. findFoodItem(foodName)
+    -> finds and returns a meal from the test database, test_foodItems collection with name foodName.
+    -> foodName: the name of the food to look for in the database (eg: "Banana").
+    -> returns: a new Meal object if a food found with name foodName else returns -1.
+
+5. getFoodItems()
+    -> returns a list of all the food items from test database, test_foodItems collection that a user might want to log (eg: fooditems like "Banana", "Pizza", "Apple", etc).
+
+6. getUserId(userhash)
+    -> finds a User with UserHash = userhash from test database, test_user collection.
+    -> userhash: UserHash of User to search for.
+    -> returns: userId of the User if successful else -1.
+
+7. deleteUser(userId)
+    -> deletes user with _id = userId from the database.
+    -> userId: the id of the document to delete.
+    -> returns 1 on success else -1 on failure.
+
+8. userExists(username)
+    -> checks if a User with Username = username exists in the database.
+    -> username: Username of the User to search for.
+    -> returns: 1 if no userExists otherwise -1.
+
+9. findRecipesByIngredients(ingredientName, forbiddenIngredients)
+    -> finds recipes from the test database, test_recipes collection which has given ingredients and doesnot have forbiddenIngredients.
+    -> ingredientName: name of the ingredient to search for, forbiddenIngredients: User's forbiddenIngredients if any.
+    -> returns: a list containing recipes if there are any with given ingredient otherwise empty list.
+
+10. getAllMeals()
+    -> returns a list of all the recipes from test database, test_recipes collection.
+
+11. testFunction()
+    -> a function to test Mongodb functions.
+
+Express routes:
+
+1. app.post('/addCalendarEvent')
+    -> a route to add a calendar Event to a particulat user's calendar.
+    -> requires: userId of the User to add CalendarEvent to, (date, eventTitle, startTime, endTime) event information.
+
+2. app.get('/getCalendarEvents')
+    -> returns a document in {date: [{event, startTime, endTime}]} format.
+    -> requires userId of the User.
+
+3. app.get('/getFoodItems')
+    -> returns a document in {foodItems: [all the foodItems in the database]} format.
+
+4. app.post('/logMeal')
+    -> a route to log a Meal to a User's logbook.
+    -> requires userId and mealName(a name of the food Item to log from the foodItems list returned above, eg"Anyname which is in foodItems list of test_foodItems collection").
+
+5. app.post('/createUser')
+    -> a route to create a new User from Username and password (signup)
+    -> requires: userName and password of the new user.
+    -> returns: userId of the new User created in the database if userName is not taken otherwise a text saying user already exists.
+
+6. app.post('/setUser')
+    -> a route to setup a user's account once created using '/createUser'.
+    -> requires: userId, (name, age, weight, height, forbiddenIngredients) of the new user.
+
+7. app.get('/getUserId')
+    -> to get the userId of a User from Username and password (login).
+    -> requires: username and password.
+    -> returns: a text saying invalid username if the username is invalid, invalid password if the password is invalid otherwise userId of the user if both are valid.
+
+8. app.get('/deleteUser')
+    -> to delete a user from username and password.
+    -> requires: username and password.
+    -> returns: Invalid text if any of them is invalid otherwise "ok" if the user is deleted.
+
+9. app.get('/mealsBasedOnFood')
+    -> to get recipes based on food user has.
+    -> requires: ingredientName: name of the food item that user has, userId: to see if he has any forbiddenIngredients.
+    -> returns: a document in {recipeList: []} if there are recipes in the database with given ingredient otherwise a text saying no recipes found if there are none.
+
+10. app.get('/getAllMeals')
+    -> to get a list of all the recipes in the database.
+    -> returns: a document in {allRecipes: []} format.
+
+11. app.get('/getMealsLoggedToday') and app.get('/getMealsLoggedDate')
+    -> to get a list of all the meals logged by a User today and on a date.
+    -> returns: a document in {meals: []} format.
+
+12. app.post('/addCustomRecipe')
+    -> to add a custom recipe to a User's cookbook
+    -> requires userId of the User, and components of Recipe given by the User (Name, Ingrdients, Nutrients (optional), Instruction)
+
+13. app.get('/getMyMeals')
+    -> to get my cookbook
+    -> requires userId
+    -> returns: a document in {myMeals: []} format.
+
