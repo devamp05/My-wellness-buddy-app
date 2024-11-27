@@ -10,10 +10,10 @@ My Wellness Buddy is a **food logging and wellness app** designed with a dietici
 
 ## Team 34 – The Fit Fellas
 
+- **Devam Patel** (dns682)
 - **Ogo Alege** (egv062)
 - **Stephen Kelly** (bjl294)
 - **Yusup Guldadov** (hze083)
-- **Devam Patel** (dns682)
 - **Zachary Szakacs** (bxq315)
 - **Brian Zhou** (baz896)
 
