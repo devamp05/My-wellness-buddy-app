@@ -74,6 +74,8 @@ We designed this app with six core personas in mind, including:
   - Framework: React Native with Expo Go for testing.
   - Language: JavaScript.
 - **Back-End**:
+  - Node.js with Express.
+  - Language JavaScript.
   - Database: MongoDB.
 
 ---
@@ -91,8 +93,8 @@ Our development process follows Agile principles, with user stories focused on:
 ## QA Plan
 
 - **Integration Testing**: Manual task-based walkthroughs for end-to-end validation.
-- **Unit Testing**: Key backend functions (`searchOne()` and `getAll()`).
-- **Regression Testing**: Automated class-specific tests to ensure feature stability.
+- **Unit Testing**: Test each method individually.
+- **Regression Testing**: Test each functionality after any changes.
 - **System Testing**: Manual API tests using Postman.
 
 ---
@@ -116,13 +118,13 @@ Our development process follows Agile principles, with user stories focused on:
    npm install
 4. Start the app in development mode:
 Copy code
-```bash
-expo start
-```
+  ```bash
+  expo start
+  ```
 5. Test API endpoints using Postman.
 
 
 ### Contributions
 
-This project was collaboratively built by Team 34 – The Fit Fellas. Contributions are welcome as we continue to expand My Wellness Buddy into a robust wellness tool.
+This project was collaboratively built by Team 34 – The Fit Fellas at USASK as part of course CMPT 370. Contributions are welcome as we continue to expand My Wellness Buddy into a robust wellness tool.
 
