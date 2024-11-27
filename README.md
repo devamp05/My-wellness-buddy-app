@@ -118,10 +118,10 @@ Our development process follows Agile principles, with user stories focused on:
    npm install
    ```
 4. Start the app in development mode:
-Copy code
-  ```bash
+  Copy code
+   ```bash
    expo start
-  ```
+   ```
 5. Test API endpoints using Postman.
 
 
